@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A421E31E2021F1380016D909 /* HistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421E31D2021F1380016D909 /* HistoryController.swift */; };
 		A42E9C31201F51FF0061EDCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E9C30201F51FF0061EDCF /* AppDelegate.swift */; };
 		A42E9C33201F51FF0061EDCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E9C32201F51FF0061EDCF /* ViewController.swift */; };
 		A42E9C36201F51FF0061EDCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42E9C34201F51FF0061EDCF /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A421E31D2021F1380016D909 /* HistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryController.swift; sourceTree = "<group>"; };
 		A42E9C2D201F51FF0061EDCF /* simplecalc-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "simplecalc-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A42E9C30201F51FF0061EDCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A42E9C32201F51FF0061EDCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				A42E9C30201F51FF0061EDCF /* AppDelegate.swift */,
 				A42E9C32201F51FF0061EDCF /* ViewController.swift */,
 				A42E9C34201F51FF0061EDCF /* Main.storyboard */,
+				A421E31D2021F1380016D909 /* HistoryController.swift */,
 				A42E9C37201F51FF0061EDCF /* Assets.xcassets */,
 				A42E9C39201F51FF0061EDCF /* LaunchScreen.storyboard */,
 				A42E9C3C201F51FF0061EDCF /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A42E9C33201F51FF0061EDCF /* ViewController.swift in Sources */,
+				A421E31E2021F1380016D909 /* HistoryController.swift in Sources */,
 				A42E9C31201F51FF0061EDCF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

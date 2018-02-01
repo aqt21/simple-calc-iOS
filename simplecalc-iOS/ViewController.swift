@@ -7,12 +7,14 @@
 //
 
 import UIKit
+var history: [String] =  []
 
 class ViewController: UIViewController {
-    
     @IBOutlet weak var answerLabel: UILabel!
     @IBOutlet weak var argsLabel: UILabel!
     @IBOutlet weak var decimalButton: UIButton!
+    
+
     var args : [String] = []
     var numPressed = false
     var countCheck = false
@@ -28,7 +30,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
     @IBAction func equalsPress(_ sender: UIButton) {
         if countCheck {
             args.append("count")
@@ -40,9 +41,11 @@ class ViewController: UIViewController {
         }
         let answer = calculate(args)
         answerLabel.text = String(answer)
+        history.append(argsLabel.text!)
         argsLabel.text = ""
         args = []
         numPressed = false
+
     }
     
     @IBAction func factPress(_ sender: UIButton) {
